@@ -1022,6 +1022,10 @@ def ZeeNewsVideos():
     
 def index (request):
     print("The Session started")
+    # Create threads for the scrapers
+    # thread4 = threading.Thread(target=AajTak)
+    # thread2 = threading.Thread(target=News18Punj)
+    # thread3 = threading.Thread(target=IndiaToday)
     # thread1 = threading.Thread(target=AajtakVideo)
     # thread5 = threading.Thread(target=IndianExpressVideo)
     # thread6 = threading.Thread(target=ZeeNewsVideos)
@@ -1030,10 +1034,15 @@ def index (request):
     # thread1.start()
     # thread5.start()
     # thread6.start()
+    # thread4.start()
+    # thread2.start()
+    # thread3.start()
 
     # # Wait for all threads to finish
     # thread1.join()
-
+    # thread4.join()
+    # thread2.join()
+    # thread3.join()
     # thread5.join()
     # thread6.join()
 
